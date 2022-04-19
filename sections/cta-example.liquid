@@ -10,7 +10,7 @@
     background: #fff;
 }
 {% endstylesheet %}
-<section class="cta-example">
+
     <div class="cta-example_image">
     {{ 'lifestyle-1' | placeholder_svg_tag }}
     </div>
@@ -20,4 +20,11 @@
     <p>Here is a test</p>
     <a href="#"> Learn more</a>
     </div>
-</section>
+
+{% schema %}
+{
+    "name": "call-to-Action",
+    "tag": "section",
+    "class": "cta-example"
+}
+{% endschema %}
