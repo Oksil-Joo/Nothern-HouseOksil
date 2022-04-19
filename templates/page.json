@@ -6,13 +6,13 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "cta": {
+      "type": "cta-example"
     }
   },
-    "cta-ex": {
-      "type": "cta-example"
-    },
   "order": [
     "main",
-    "cta-ex"
+    "cta"
   ]
 }
