@@ -205,12 +205,24 @@
   }
 
   .banner:not(.banner--mobile-bottom) .button--secondary {
+    --color-button: 0, 0, 0;
+    --color-button-text: 255, 255, 255;
+    --alpha-button-background: 0;
+  }
+  .banner:not(.banner--mobile-bottom) .button--secondary {
+    --color-button: 255, 255, 255;
+    --color-button-text: 255, 255, 255;
+    --alpha-button-background: 0;
+  }
+  .banner:not(.banner--mobile-bottom) .button--secondary {
     --color-button: 255, 255, 255;
     --color-button-text: 255, 255, 255;
     --alpha-button-background: 0;
   }
     
  
+
+
 
   .banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
@@ -417,6 +429,9 @@
   background-color: rgb(244, 152, 31);
 }
 
+.banner_buttons:hover {
+  background-color: aqua;
+}
 @media screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__buttons--multiple {
     justify-content: flex-end;
