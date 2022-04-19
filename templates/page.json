@@ -8,7 +8,14 @@
       }
     },
     "cta": {
-      "type": "cta-example"
+      "type": "cta-example",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/logo7.png",
+        "heading": "OksilJoo's House",
+        "content": "<p>If you want change, You can follow me!.<\/p>",
+        "button_link": "shopify:\/\/collections\/home-appliances-collection",
+        "button_text": "Shop now"
+      }
     }
   },
   "order": [
