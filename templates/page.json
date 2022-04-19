@@ -8,15 +8,11 @@
       }
     }
   },
-    "cta": {
-      "type": "calltoA-ex",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
+    "cta-ex": {
+      "type": "cta-example"
     },
   "order": [
     "main",
-    "cta"
+    "cta-ex"
   ]
 }
