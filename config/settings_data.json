@@ -103,9 +103,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to my house",
-              "color_scheme": "background-1",
-              "link": ""
+              "text": "Big Sale upto 70%",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/pages\/big-sale"
             }
           }
         },
