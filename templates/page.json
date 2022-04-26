@@ -7,15 +7,14 @@
         "padding_bottom": 28
       }
     },
-    "bigsale": {
+    "bigsale-product": {
       "type": "bigsale-product",
       "settings": {
-        
       }
     }
   },
   "order": [
     "main",
-    "bigsale"
+    "bigsale-product"
   ]
 }

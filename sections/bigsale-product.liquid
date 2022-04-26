@@ -1,12 +1,43 @@
 <section>
-<h2>Big sale for May</h2>
+    {% if section.settings.heading != blank %}
+<h2>{{section.settings.heading}}</h2>
+{% endif %}
 
 <ul>
+    {% for product in collections[section.settings.collection].products %}
     <li>
-        Image
-        Product Title
-        Price
-        Button
+        <img src="{{ product.featured_image | image_url: width: 200 }}" alt="" loading="lazy" width="200" height="300">
+        <h3>{{ product.title }}</h3>
+        <div>
+            <del>{{product.compare_at_price}}</del>
+            {{ product.price }}
+        </div>
+       
+        <a href="#" class="button" {% if product.available %}> disabled {% endif %}
+            Shop Now
+        </a>
     </li>
+    {% endfor %}
 </ul>
 </section>
+
+{% schema %}
+{
+    "name": "Bigsale Product",
+    "tag" : "section",
+    "class": "bigsale-product",
+    "settings": [
+    {
+        "type" : "text",
+        "id" : "section",
+        "label": "Label",
+        "default" : "Prodcut list example"
+    },
+    {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+    }
+    ]
+}
+{% endschema %}
