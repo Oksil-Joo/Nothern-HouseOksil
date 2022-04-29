@@ -9,14 +9,26 @@
     },
     "bigsale-product": {
       "type": "bigsale-product",
+      "disabled": true,
       "settings": {
         "section": "Prodcut list example",
         "collection": "living-room-accessory-collection"
+      }
+    },
+    "16512350434bce8689": {
+      "type": "cta-example",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/logo7.png",
+        "heading": "House",
+        "content": "<p>If you want to change go to my house!<\/p>",
+        "button_link": "shopify:\/\/collections\/all",
+        "button_text": "Shop Now"
       }
     }
   },
   "order": [
     "main",
-    "bigsale-product"
+    "bigsale-product",
+    "16512350434bce8689"
   ]
 }
