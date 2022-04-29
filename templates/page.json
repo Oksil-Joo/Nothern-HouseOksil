@@ -9,7 +9,6 @@
     },
     "bigsale-product": {
       "type": "bigsale-product",
-      "disabled": true,
       "settings": {
         "section": "Prodcut list example",
         "collection": "living-room-accessory-collection"
