@@ -1,8 +1,15 @@
-<section>
+<style>
+    .page-width {
+        display: flex;
+        flex-wrap:wrap;
+        list-style-type: none;
+    }
+</style>
+    <div class="page-width">
     {% if section.settings.heading != blank %}
 <h2>{{section.settings.heading}}</h2>
 {% endif %}
-
+<div class="bigsale-list">
 <ul>
     {% for product in collections[section.settings.collection].products %}
     <li>
@@ -19,7 +26,9 @@
     </li>
     {% endfor %}
 </ul>
-</section>
+</div>
+</div>
+
 
 {% schema %}
 {
