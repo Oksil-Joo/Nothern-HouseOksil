@@ -9,7 +9,6 @@
     },
     "bigsale-product": {
       "type": "bigsale-product",
-      "disabled": true,
       "settings": {
         "section": "Prodcut list example",
         "collection": "living-room-accessory-collection"
@@ -17,6 +16,7 @@
     },
     "16512350434bce8689": {
       "type": "cta-example",
+      "disabled": true,
       "settings": {
         "background_image": "shopify:\/\/shop_images\/logo7.png",
         "heading": "House",
