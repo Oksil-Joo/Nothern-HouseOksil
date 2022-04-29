@@ -11,9 +11,9 @@
       "type": "cta-example",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/logo7.png",
-        "heading": "OksilJoo's House",
-        "content": "<p>If you want change, You can follow me!.<\/p>",
-        "button_link": "shopify:\/\/collections\/home-appliances-collection",
+        "heading": "Rivingroom Collections",
+        "content": "<p>If you want change your livingroom, You can follow me!.<\/p>",
+        "button_link": "shopify:\/\/collections\/living-room-accessory-collection",
         "button_text": "Shop now"
       }
     }
