@@ -10,6 +10,8 @@
     "bigsale-product": {
       "type": "bigsale-product",
       "settings": {
+        "section": "Prodcut list example",
+        "collection": "living-room-accessory-collection"
       }
     }
   },
