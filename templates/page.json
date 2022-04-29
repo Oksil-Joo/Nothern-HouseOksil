@@ -19,9 +19,9 @@
       "type": "cta-example",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/logo7.png",
-        "heading": "House",
-        "content": "<p>If you want to change go to my house!<\/p>",
-        "button_link": "shopify:\/\/collections\/all",
+        "heading": "Living room collection",
+        "content": "<p>If you want to change your living room go to my house!<\/p>",
+        "button_link": "shopify:\/\/collections\/living-room-accessory-collection",
         "button_text": "Shop Now"
       }
     }
